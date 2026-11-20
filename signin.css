@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1699009436048-df0b5008bef3?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  font-family: sans-serif;
+}
+
+.signin-card {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    width: 360px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666666;
+    font-size: 14px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.tombol-login {
+    background-color: #46de4b;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.tombol-login:hover {
+    background-color: #38b53c;
+}
+
+
+/* Efek transisi halus saat tombol ditekan */
+.tombol-login:active {
+    transform: scale(0.98);
+    transition: transform 0.1s ease;
+}
+    
+
+/* Kotak login dibuat lebih lembut dengan bayangan estetik */
+.kotak-login {
+    background: #ffffff;
+    width: 360px;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.kotak-login h2 {
+    text-align: center;
+    margin-bottom: 24px;
+    color: #d3d5d7;
+    font-weight: 700;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #f3f5f8;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Kolom input dengan desain modern, border tipis, dan transisi halus */
+input[type="text"], input[type="password"], input[type="email"] {
+    width: 100%;
+    padding: 3px 4px;
+    margin-bottom: 20px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #5480be;
+    background-color: #f8fafc;
+    transition: all 0.3s ease; /* Membuat efek animasi halus saat diklik */
+}
+
+/* EFEK KUNCI: Kolom akan menyala biru lembut saat mulai mengetik */
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #3b82f6;
+    background-color: #ffffff;
+    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.1);
+    outline: none; /* Menghilangkan garis biru bawaan browser */
+}
+
+/* Tombol login dengan warna biru solid dan efek melayang (hover) */
+.tombol-signin {
+    background-color: #3b82f6;
+    color: white;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+/* Efek saat mouse berada di atas tombol */
+.tombol-signin:hover {
+    background-color: #eaedf4;
+}
+
+/* Efek sedikit mengecil saat tombol ditekan */
+.tombol-signin:active {
+    transform: scale(0.98);
+}
+
+.signin-card p {
+    text-align: center;
+    margin-top: 20px;
+    color: #e4e7eb;
+    font-size: 14px;
+}
+
+
+
+.Signin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 30vw;
+    min-height: 60vh;
+    background-color: #fdfdfd5e; /* Warna latar belakang luar */
+}
+
+
+input[type="checkbox"] {
+  margin-right: 5px;
+  margin-bottom: 15px;
+}
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+p {
+  text-align: center;
+}
+a {
+  color: #007bff;
+}
+a:hover {
+  text-decoration: underline;
+}
